@@ -35,18 +35,19 @@ function calcTypeBasic() {
   }
 
   function doCalc() {
-    var numA = getnumA();
-    var numB = getnumB();
+    var num1 = getnumA();
+    var num2 = getnumB();
+    var op = getOperator();
 
     // 'if statement' for operation
-    if (getOperator() == "*") {
-      numResult = Number(numA) * Number(numB);
-    } else if (getOperator == "/") {
-      numResult = Number(numA) / Number(numB);
-    } else if (getOperator == "-") {
-      numResult = Number(numA) - Number(numB);
-    } else {
-      numResult = Number(numA) + Number(numB);
+    if (op == "*") {
+      numResult = Number(num1) * Number(num2);
+    } else if (op == "/") {
+      numResult = Number(num1) / Number(num2);
+    } else if (op == "-") {
+      numResult = Number(num1) - Number(num2);
+    } else if (op == "+") {
+      numResult = Number(num1) + Number(num2);
     }
     setnumResult();
   }
