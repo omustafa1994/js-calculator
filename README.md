@@ -4,8 +4,8 @@
 The assigned work involved re-creating the Volume website using my full understanding of Bootstrap, alongside HTML and CSS. This task involved pair programming, therefore two programmers had to work together at one workstation.
 
 ### Languages used
+* JavaScript
 * HTML
-* CSS
 
 ### How to download
 1. Clone the Git repo
