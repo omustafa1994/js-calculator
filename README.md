@@ -1,7 +1,7 @@
 # JavaScript Calculator
 
 ### Description
-The assigned work involved re-creating the Volume website using my full understanding of Bootstrap, alongside HTML and CSS. This task involved pair programming, therefore two programmers had to work together at one workstation.
+This homework was assigned to test my understanding of JavaScript. After having only learnt two days of JavaScript I was able to build a calculator with basic functions; add, subtract, multiple and divide. 
 
 ### Languages used
 * JavaScript
